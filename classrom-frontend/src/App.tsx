@@ -58,7 +58,7 @@ function App() {
                   <Route path="/" element={<Dashboard />} />
                   <Route path="subjects">
                     <Route index element={<SubjectsList />} />
-                    <Route path="/create" element={<SubjectsCreate />} />
+                    <Route path="create" element={<SubjectsCreate />} />
                   </Route>
                 </Route>
               </Routes>
